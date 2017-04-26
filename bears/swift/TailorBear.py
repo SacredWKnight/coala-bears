@@ -21,7 +21,7 @@ class TailorBear:
     For more information on the analysis visit <https://tailor.sh/>
     """
     LANGUAGES = {'Swift'}
-    REQUIREMENT = {DistributionRequirement(apt_get='default-jre')}
+    REQUIREMENT = {DistributionRequirement(brew='tailor')}
     AUTHORS = {'The coala developers'}
     AUTHORS_EMAILS = {'coala-devel@googlegroups.com'}
     LICENSE = 'AGPL-3.0'
